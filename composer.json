@@ -1,0 +1,11 @@
+{
+  "name": "huasx/blog",
+  "description": "Ricky's Blog",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ricky",
+      "email": "huashunxin01@gmail.com"
+    }
+  ]
+}

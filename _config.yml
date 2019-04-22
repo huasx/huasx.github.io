@@ -1,0 +1,73 @@
+title: Ricky Blog
+SEOTitle: Ricky的 博客 | Ricky's Blog
+header-img: img/post-bg-desk.jpg
+email: huashunxin01@gmail.com
+description: Make small but daily progress!
+keyword: Ricky, PHP, Go
+url: https://huasx.github.io
+github_repo: "https://github.com/huasx/huasx.github.io.git"
+
+sidebar: true
+sidebar-about-description: "Thinking will not overcome fear but action will."
+sidebar-avatar: /img/header_img.jpg
+
+
+RSS: false
+weibo_username: 3378880842
+zhihu_username: ricky1114
+github_username: huasx
+jianshu_username: 504aa997f8e4
+
+
+
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
+
+# 评论系统
+# disqus_username: ricky1114
+
+# Gitalk
+gitalk:
+  enable: true
+  clientID: bccd4911d12f1d4a80c2
+  clientSecret: eee49b3d67ce738c5b62d1a7afbd93bcd43cf422
+  repo: huasx.github.io
+  owner: huasx
+  admin: huasx
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
+# 统计
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: bbd40ecd526b69e3dab652bc65402251
+
+# Google Analytics
+ga_track_id:  UA-119889043-1   # Format: UA-xxxxxx-xx
+ga_domain: auto               # 默认的是 auto,  这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+
+#首页标签
+featured-tags: true
+featured-condition-size: 1
+tags: ["PHP","GO","JSON"]
+
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+friends: [
+    {
+        title: "简书·Ricky",
+        href: "http://www.jianshu.com/u/504aa997f8e4"
+    }
+]
+
+# theme: jekyll-theme-cayman

@@ -1,0 +1,19 @@
+{
+  "name": "Ricky Blog",
+  "short_name": "Ricky Blog",
+  "description": "A personal blog by engineer",
+  "icons": [{
+    "src": "icons/favicon.ico",
+    "sizes": "32x32",
+    "type": "image/png"
+  }, {
+    "src": "icons/favicon.ico",
+    "sizes": "32x32",
+    "type": "image/png"
+  }],
+  "background_color": "#fff",
+  "theme_color": "#000",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}

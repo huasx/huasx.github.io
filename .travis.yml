@@ -1,0 +1,11 @@
+language: haxe
+
+env:
+  global:
+    - setup=stable
+
+
+install: true
+script: true
+
+sudo: false

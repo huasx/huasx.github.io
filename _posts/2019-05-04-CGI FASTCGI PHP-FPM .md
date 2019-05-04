@@ -3,7 +3,7 @@ layout:     post
 title:      CGI FAST-CGI PHP-FPM 
 subtitle:   CGI、FastCGI和php-fpm的概念和区别
             
-date:       2019-04-30
+date:       2019-05-04
 author:     Ricky
 header-img: img/5780743b45040.jpg
 catalog: true

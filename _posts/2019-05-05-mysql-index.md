@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      聚簇索引 b-tree
+title:      聚簇索引 b+tree
 subtitle:   浅谈聚簇索引和非聚簇索引
             
 date:       2019-05-05

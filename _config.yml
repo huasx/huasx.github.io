@@ -65,10 +65,6 @@ service-worker: true
 
 friends: [
     {
-        title: "简书·Ricky",
-        href: "https://www.jianshu.com/u/504aa997f8e4"
-    },
-    {
         title: "fifsky",
         href: "https://fifsky.com/"
     }

@@ -15,3 +15,5 @@ Server 端输入以下命令，回车
 ```
     python -m SimpleHTTPServer
 ```
+
+### 浏览器打开 ip:0000 即可下载

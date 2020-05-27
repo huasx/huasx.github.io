@@ -15,13 +15,18 @@ tags:
 很多人其实都不喜欢解析xml，但是无奈实际工作中总会遇到xml数据需要解析，
 如果你特别不幸，你还会遇到无效的 Unicode 字符，这会导致解析器阻塞，就像我最近做的那样:
 
+
 ```shell script
+
 XML syntax error on line 12: illegal character code U+0014
+
 ```
 
 网上搜罗了一圈，先上代码，看下如何解决
 
+
 ```golang
+
 bt := []byte(strings.Map(func(r rune) rune {
     if unicode.IsPrint(r) {
         return r
@@ -33,6 +38,7 @@ bt := []byte(strings.Map(func(r rune) rune {
 mb := &msg.struct{}
 
 err := xml.Unmarshal(bt, mb) // nil
+
 ```
 
 看起来他只是把unicode中的不可打印字符替换了。

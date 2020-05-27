@@ -19,10 +19,10 @@ tags:
 ```shell script
 
 XML syntax error on line 12: illegal character code U+0014
-
 ```
 
-网上搜罗了一圈，先上代码，看下如何解决
+
+> 网上搜罗了一圈，先上代码，看下如何解决
 
 
 ```golang

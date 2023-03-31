@@ -10,6 +10,6 @@
 <a href="https://packagist.org/packages/huasx/blog"><img src="https://poser.pugx.org/huasx/blog/license.svg" alt="License"></a>
 </p>
 
-# Ricky  Blog
+# Ricky Blog
 
 ###  [我的博客在这里 &rarr;](https://huasx.github.io)
